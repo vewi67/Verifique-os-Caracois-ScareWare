@@ -1,13 +1,15 @@
-# Segurança e comportamento do programa
+# Segurança e comportamento
 
-Este projeto é uma brincadeira visual, não uma ferramenta de segurança.
+O **Verifique os Caracóis** é uma brincadeira visual, não uma ferramenta de segurança.
 
-## Comportamento esperado
+## Revisão do script PowerShell
 
-O projeto não deve apagar, alterar, criptografar ou transmitir arquivos; modificar configurações do sistema; instalar persistência; coletar informações pessoais; conectar-se a servidores; nem desativar ferramentas de segurança.
+O arquivo `caracol.ps1` foi inspecionado. Ele muda o título e as cores do terminal, exibe mensagens, faz pausas, escolhe aleatoriamente quando a animação termina e espera uma tecla. A frase “Deletando Sistema [OK]” é uma mensagem na tela, não um comando de exclusão.
 
-## Limitação importante
+No script inspecionado, não encontrei operações para apagar ou alterar arquivos, modificar o Registro, instalar persistência, coletar dados ou se conectar à internet.
 
-No momento, este repositório contém apenas documentação. Não há código-fonte nem executável publicado aqui para permitir uma auditoria técnica. Portanto, as afirmações acima descrevem o comportamento esperado do projeto, e não uma garantia independente sobre arquivos executáveis obtidos de terceiros.
+## Limites desta revisão
 
-Não execute binários de origem desconhecida. Se você encontrar um comportamento inesperado em uma versão futura, abra uma issue com a descrição do ocorrido, evitando publicar dados pessoais ou arquivos privados.
+O repositório também contém `Caracol.exe` e `Verifique os Caracois.malware.zip`. Esses dois arquivos não foram analisados de forma independente, e o conteúdo do ZIP não foi verificado. Assim, a análise do script não é uma garantia de que os binários correspondam exatamente a ele.
+
+Não execute cópias obtidas de fontes desconhecidas. Se algum arquivo se comportar de maneira diferente da descrita, relate o problema por meio de uma issue e inclua apenas informações não sensíveis.
