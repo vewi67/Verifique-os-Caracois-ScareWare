@@ -1,42 +1,52 @@
 # 🐌 Verifique os Caracóis
 
-> Uma ferramenta de importância científica duvidosa para verificar caracóis. Muito séria. Quase certamente aprovada por algum caracol.
+> Um programa de importância científica duvidosa para verificar caracóis. Muito sério. Quase certamente aprovado por algum caracol.
 
-**Verifique os Caracóis** é uma brincadeira inspirada na estética de programas exageradamente alarmistas. A proposta é divertir com uma simulação visual fictícia, não assustar alguém de verdade nem causar qualquer dano.
+O **Verifique os Caracóis** é uma brincadeira visual com a estética exageradamente dramática de programas chamados *scareware*. Ele finge fazer uma verificação e mostra mensagens alarmistas, mas a intenção é apenas fazer graça.
 
-## 🟢 O que este projeto pretende fazer
+## 🟢 O que ele faz de verdade
 
-- Exibir uma brincadeira visual e mensagens fictícias.
-- Fazer piada com aqueles programas que mostram alertas dramáticos por absolutamente nada.
-- Continuar sendo um projeto pequeno, aberto e inofensivo.
+O script PowerShell publicado neste repositório (`caracol.ps1`) faz coisas simples:
 
-## 🛡️ O que ele não deve fazer
+- muda o título e as cores do terminal durante a execução;
+- mostra mensagens fictícias na tela;
+- espera alguns instantes e usa um resultado aleatório para avançar a animação;
+- termina mostrando que era uma brincadeira e espera uma tecla.
 
-O projeto foi pensado para **não**:
+A mensagem **“Deletando Sistema [OK]” é apenas texto exibido na tela**. No script publicado, ela não executa uma operação de exclusão.
 
-- apagar, alterar, criptografar ou enviar arquivos pessoais;
-- modificar configurações do Windows, Registro, inicialização ou outros componentes do sistema;
-- instalar programas, serviços ou tarefas em segundo plano;
-- coletar senhas, dados pessoais ou informações do computador;
-- abrir conexões com servidores ou enviar dados pela internet;
-- desativar o antivírus ou tentar esconder sua atividade.
+## 🛡️ O que o script não faz
 
-**Isto é uma descrição do comportamento pretendido, não uma auditoria de um executável.** No momento, este repositório contém documentação, mas não inclui o código-fonte nem um arquivo executável para inspeção. Por isso, ainda não é possível confirmar tecnicamente o comportamento de um binário distribuído separadamente. Não confie em executáveis obtidos de fontes desconhecidas só porque usam este nome.
+Na revisão do arquivo `caracol.ps1`, não há comandos para:
 
-## ▶️ Como usar
+- apagar, alterar ou criptografar seus arquivos;
+- modificar o Registro ou as configurações do Windows;
+- instalar serviços, tarefas agendadas ou inicialização automática;
+- coletar senhas ou dados pessoais;
+- enviar informações pela internet;
+- desativar o antivírus ou esconder sua execução.
 
-Por enquanto, não há programa executável neste repositório. Quando o código-fonte e uma versão executável forem publicados, as instruções serão atualizadas aqui.
+**Importante:** o repositório também contém `Caracol.exe` e um arquivo ZIP. O script PowerShell foi inspecionado, mas o executável e o conteúdo do ZIP não foram analisados de forma independente nesta revisão. Portanto, não seria honesto prometer que cada binário corresponde exatamente ao script só com base no nome. Prefira versões que possam ser relacionadas ao código-fonte publicado.
 
-## 🔍 Transparência
+## ▶️ Como experimentar
 
-O ideal é manter o código-fonte disponível junto de cada versão para que qualquer pessoa possa inspecionar o que o programa realmente faz. Se uma versão futura se comportar de forma diferente do que está documentado, considere isso um problema e abra uma issue.
+Os arquivos estão disponíveis na página do repositório. Leia o script antes de executá-lo e não abra arquivos que tenham vindo de cópias ou fontes desconhecidas.
 
-Este projeto não é antivírus, ferramenta de segurança ou verificador real de caracóis. Nenhum molusco foi consultado durante o desenvolvimento.
+Este projeto não é antivírus, ferramenta de segurança ou verificador real de caracóis. Não altera o computador de propósito: a brincadeira acontece no terminal. 🐌
+
+## 📂 Arquivos do projeto
+
+- `caracol.ps1`: script PowerShell de referência.
+- `Caracol.exe`: versão executável incluída no repositório, não auditada independentemente nesta revisão.
+- `Verifique os Caracois.malware.zip`: arquivo ZIP incluído no repositório; seu conteúdo não foi verificado nesta revisão.
+- `SECURITY.md`: informações sobre segurança e limitações.
+- `CONTRIBUTING.md`: regras para contribuir.
+- `LICENSE`: licença MIT.
 
 ## 📜 Licença
 
-Distribuído sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE).
+Projeto distribuído sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE).
 
 ## 🐌 Resumo
 
-É uma piada de computador. A intenção é fazer graça, não mexer no seu computador. Caracóis, por favor, mantenham a calma.
+Parece dramático. Fala em deletar o sistema. No script publicado, é só teatro de terminal: **nenhum caracol tem permissão para tocar nos seus arquivos**.
