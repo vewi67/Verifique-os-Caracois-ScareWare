@@ -1,5 +1,8 @@
 # 🐌 Verificador Caracolístico
 
+[![Open Source](https://img.shields.io/badge/Open%20Source-%E2%86%91-brightgreen?style=for-the-badge)](https://github.com/vewi67/Verifique-os-Caracois-ScareWare)
+[![Licença MIT](https://img.shields.io/badge/Licen%C3%A7a-MIT-brightgreen?style=for-the-badge)](LICENSE)
+
 > **Um software extremamente sério para um problema que não existe.**
 
 O Verificador Caracolístico é um programa feito com tecnologia de ponta, orçamento de R$ 0,00 e uma quantidade preocupante de tempo livre.
@@ -50,9 +53,11 @@ Não é um antivírus, não verifica caracóis de verdade e não oferece proteç
 
 Use apenas versões cujo código você possa inspecionar. Um arquivo executável baixado de terceiros pode ter sido alterado e não é automaticamente seguro só por ter o mesmo nome.
 
-## 📜 Licença
+## 📜 Licença e código aberto
 
-Nenhuma licença específica foi identificada neste repositório. Até que uma licença seja adicionada, não presuma que você tem permissão para redistribuir ou modificar o projeto.
+Este projeto é **open source** e está disponibilizado sob a [licença MIT](LICENSE). Você pode usar, copiar, modificar, distribuir e até incluir o código em outros projetos, desde que mantenha o aviso de copyright e o texto da licença.
+
+O software é fornecido **“no estado em que se encontra”**, sem garantias. Consulte o arquivo `LICENSE` para ver os termos completos.
 
 ## 🐌 Conclusão
 
